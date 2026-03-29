@@ -1,0 +1,19 @@
+camp-ados/
+├── index.php
+├── pages/
+│   ├── concept.php
+│   ├── programme.php
+│   ├── valise.php
+│   ├── adresse.php
+│   └── photos.php
+├── includes/
+│   ├── header.php
+│   └── footer.php
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── images/
+│   └── videos/
+└── README.md
