@@ -7,7 +7,7 @@ include '../includes/header.php';
     <main>
         <section class="hero">
             <h1>Photos</h1>
-            <p>Quelques photos du Summer Camp sont affichées ci-dessous.</p>
+            <p><b>Quelques photos du <span class="highlight">summer camp</span> de l'année dernière.</b></p>
         </section>
 
         <section class="carousel" id="photoCarousel" aria-label="Carrousel de photos">

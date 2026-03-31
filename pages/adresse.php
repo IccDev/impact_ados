@@ -8,25 +8,27 @@ include '../includes/header.php';
         <!-- Coordonnées et lieux -->
         <section class="hero">
             <h1>Adresse du camp</h1>
-            <p>Retrouvez ici l’adresse du camp, le logo ICC et l’adresse de l’église principale.</p>
+            <p><b>Retrouvez ici l’adresse du camp, de ICC Lyon ainsi que de l'église principale ICC Paris.</b></p>
         </section>
 
         <section class="cards">
             <article class="card">
                 <h2>Adresse du camp</h2>
-                <p>Lycée Agricole Privé Etienne Gautier <br>de Ressins</p>
-                <p> Ressins, 42123 Perreux – France</p>
+                <p><b>Lycée Agricole Privé <br> Etienne Gautier de Ressins</b></p>
+                <p><b>Ressins, 42123 Perreux – France</b></p>
             </article>
 
             <article class="card">
-                <h2>Logo ICC</h2>
-                <p>Un espace est prévu pour afficher le logo du camp ou de l’organisation.</p>
+                <h2>ICC LYON</h2>
+                <p><b>ICC LYON</b></p>
+                <p><b>98 Rue Alexandre Dumas, 69120 Vaulx-en-Velin (France)</b></p>
                 <img src="<?php echo $basePath; ?>/assets/images/logo.jpeg" alt="Logo du camp" class="brand__logo">
             </article>
 
             <article class="card">
                 <h2>Église principale</h2>
-                <p>L’adresse de l’église principale sera indiquée ici.</p>
+                <p><b>ICC PARIS</b></p>
+                <p><b>21 rue des Vieilles Vignes, 77183 Croissy Beaubourg (France).</b></p>
             </article>
         </section>
     </main>

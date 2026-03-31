@@ -7,7 +7,7 @@ include '../includes/header.php';
         <!-- Liste des indispensables -->
         <section class="hero">
             <h1>De quoi as-tu besoin dans ta valise ?</h1>
-            <p>Prépare ton séjour avec la liste des indispensables.</p>
+            <p><b>Prépare ton séjour avec la liste des indispensables.</b></p>
         </section>
 
         <section class="card">

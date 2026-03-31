@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* Base du site */
+/* Base globale du site */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f5f7fb;
@@ -19,7 +19,7 @@ a {
     color: inherit;
 }
 
-/* En-tête */
+/* En-tête du site */
 .site-header {
     position: sticky;
     top: 0;
@@ -60,7 +60,7 @@ a {
     font-size: 1.1rem;
 }
 
-/* Navigation */
+/* Navigation principale */
 .site-nav {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,20 @@ main {
     opacity: 0.95;
 }
 
-/* Cartes */
+.highlight {
+    background: linear-gradient(
+            135deg,
+            rgba(59, 130, 246, 0.22),
+            rgba(139, 92, 246, 0.20)
+    );
+    color: #ffffff;
+    border: 1px solid rgba(191, 219, 254, 0.45);
+    border-radius: 0.75rem;
+    padding: 0.4rem 0.8rem;
+    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.12);
+    font-weight: 600;
+}
+/* Cartes de contenu */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -148,7 +161,7 @@ img {
     border-radius: 16px;
 }
 
-/* Carrousel */
+/* Carrousel photo */
 .carousel {
     position: relative;
     width: 100%;
@@ -243,7 +256,7 @@ img {
     margin-top: 20px;
 }
 
-/* Responsive */
+/* Adaptation mobile */
 @media (max-width: 768px) {
     .site-header__inner {
         justify-content: center;
